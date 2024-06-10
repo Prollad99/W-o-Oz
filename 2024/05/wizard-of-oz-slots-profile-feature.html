@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset='UTF-8'/>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+  <meta content='ie=edge' http-equiv='X-UA-Compatible'/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+<link rel="stylesheet" href="/css/style.css" />
+<title>Wizard of Oz Slots Profile Feature</title>
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Function to load HTML file content
+            function loadHTML(elementId, filePath) {
+                fetch(filePath)
+                    .then(response => response.text())
+                    .then(data => {
+                        document.getElementById(elementId).innerHTML = data;
+                    })
+                    .catch(error => console.error('Error loading the file:', error));
+            }
+
+            loadHTML('header', '/header.html');
+            loadHTML('footer', '/footer.html');
+        });
+    </script>
+</head>
+<body>
+<div id="header"></div>
+<div class="card shadow-sm mb-2">
+  <div class="card-body">
+<h1>Wizard of Oz Slots Profile Feature</h1>
+
+<p>The Profile feature in Zynga's slot games allows players to customize their personal information, track gameplay statistics, and view other players' profiles. Here's an overview of this feature:</p>
+<!--more-->
+ <h2>What is the Profile Feature?</h2>
+ <p>The Profile feature enables players to edit their own information, including profile photo, name, status, location, and gender. It also displays gameplay stats such as current level, VIP tier, favorite machine, and biggest win. Players can view their stats across multiple Zynga slot games if they are connected to the Loyalty Lounge program using the same email address.</p>
+
+ <h2>Accessing the Profile Feature</h2>
+ <p>To access the Profile feature, players can tap the hamburger menu button in the upper-right corner of the game page and then tap the "My Profile" button.</p>
+
+ <h2>Profile Tab</h2>
+ <p>The Profile tab consists of two sections:</p>
+ <ol>
+     <li><strong>Manage Your Own Profile</strong>: Here, players can edit their profile photo (using their Facebook profile photo or selecting from an avatar library), set a mood status, update their name/nickname, location, and gender.</li>
+     <li><strong>Viewable Section</strong>: This section displays the player's current VIP tier, the year they joined the Loyalty Lounge, their Loyalty Lounge ID, current game level, favorite machine (based on spins in the last 30 days), and biggest win (in coins) in the past 30 days.</li>
+ </ol>
+
+ <h2>Games Tab</h2>
+ <p>The Games tab displays gameplay statistics across multiple Zynga slot games, if the player is connected to the Loyalty Lounge using the same email address. It shows the biggest win (in coins) from all linked accounts within the past 30 days, the highest game level achieved in each game, the favorite machine (based on spins in the last 30 days), and the date each game was last played.</p>
+
+ <h2>Viewing Other Players' Profiles</h2>
+ <p>Players can view other players' profiles by clicking on their photo in the "Send Gift" section of the Yellow Brick Road and selecting "View Profile." If a player's profile contains abuse or profanity, it can be reported using the "REPORT" button on the lower-right side of their profile page.</p>
+
+ <h2>Loyalty Lounge Connection</h2>
+ <p>To customize the profile photo and information, players need to sign up for the Loyalty Lounge program. Any changes made to the profile in one game will be synced across all Zynga slot games connected to the Loyalty Lounge using the same email address.</p>
+
+ <p>By providing a centralized profile feature, Zynga allows players to personalize their gaming experience, track their progress, and connect with other players within the same ecosystem.</p>
+
+</div>
+</div>
+<div id="footer"></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+    </html>
