@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset='UTF-8'/>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+  <meta content='ie=edge' http-equiv='X-UA-Compatible'/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+<link rel="stylesheet" href="/css/style.css" />
+<title>Pick of the Slipper Explained</title>
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Function to load HTML file content
+            function loadHTML(elementId, filePath) {
+                fetch(filePath)
+                    .then(response => response.text())
+                    .then(data => {
+                        document.getElementById(elementId).innerHTML = data;
+                    })
+                    .catch(error => console.error('Error loading the file:', error));
+            }
+
+            loadHTML('header', '/header.html');
+            loadHTML('footer', '/footer.html');
+        });
+    </script>
+</head>
+<body>
+<div id="header"></div>
+<div class="card shadow-sm mb-2">
+  <div class="card-body">
+<h1>Pick of the Slipper Explained</h1>
+
+<h2>What is Pick of the Slipper?</h2>
+
+<p>Pick of the Slipper is an exciting multi-day pick game event where players aim to find Dorothy's Ruby Slippers hidden beneath one of the symbols on the game board. By uncovering the Ruby Slippers in each stage, players can win fantastic prizes. After conquering the final stage, daring players can replay the stages for even bigger rewards.</p>
+<!--more-->
+<p>Upon entering the Pick Game screen, a board of symbols awaits. For each Pick (represented by Stars) a player has, they can select one symbol to reveal what lies beneath. If the Ruby Slippers are found, the stage is completed, a prize is awarded, and the player advances to the next stage with a grander prize awaiting.</p>
+
+<p>Players need not fret if they leave the Pick Game before locating the Ruby Slippers, as their progress is saved for their return.</p>
+
+<h2>Accessing Pick of the Slipper</h2>
+
+<p>To access the Pick Game at any time during the event, players simply need to tap the star-shaped button on the bottom menu, reminiscent of Glynda's wand.</p>
+
+<h2>Making Picks</h2>
+
+<p>To make a Pick in the Pick of the Slipper game, players select one of the many symbols on the game board. Picks are represented by stars, and each star allows one symbol selection. The number of available Picks is displayed in the upper right-hand corner of the Pick Game screen.</p>
+
+<h2>Earning Picks</h2>
+
+<p>Picks are earned by spinning on any game machine! Every few spins, star symbols will drop from the reels and fill the meter on the left side of the screen. Each time the meter is filled, the player earns one Pick. Higher bets cause each symbol to fill the meter more quickly! However, players can only hold a limited number of Picks at a time, so using them is encouraged.</p>
+
+<h2>Prizes</h2>
+
+<p>At the end of every stage, a credit prize awaits the player. Furthermore, other rewards can be uncovered behind some of the symbols in each stage, including:</p>
+
+<ul>
+   <li>Instant Credit prizes</li>
+   <li>Reward Up prizes to increase the current stage's Ruby Slipper reward</li>
+   <li>Lucky Card Packs</li>
+   <li>Extra Picks for more turns!</li>
+</ul>
+
+<h2>Event Duration</h2>
+
+<p>The duration of each Pick of the Slipper event varies, but players can check the timer above the game board in the Pick Game screen to see how much time remains in the current event.</p>
+
+</div>
+</div>
+<div id="footer"></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+    </html>
