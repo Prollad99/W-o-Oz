@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset='UTF-8'/>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+  <meta content='ie=edge' http-equiv='X-UA-Compatible'/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+<link rel="stylesheet" href="/css/style.css" />
+<title>Follow the Yellow Brick Road: A Collaborative Quest</title>
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Function to load HTML file content
+            function loadHTML(elementId, filePath) {
+                fetch(filePath)
+                    .then(response => response.text())
+                    .then(data => {
+                        document.getElementById(elementId).innerHTML = data;
+                    })
+                    .catch(error => console.error('Error loading the file:', error));
+            }
+
+            loadHTML('header', '/header.html');
+            loadHTML('footer', '/footer.html');
+        });
+    </script>
+</head>
+<body>
+<div id="header"></div>
+<div class="card shadow-sm mb-2">
+  <div class="card-body">
+<h1>Follow the Yellow Brick Road: A Collaborative Quest</h1>
+
+<p>"Follow the Yellow Brick Road" is an exciting event that celebrates collaboration and friendly competition among participants. In this event, players are randomly assigned to different teams, fostering a spirit of camaraderie and teamwork.</p>
+<!--more-->
+<h2>The Quest</h2>
+
+<p>Each team is tasked with collecting yellow bricks and using them to build their very own yellow brick road. As they progress along this journey, the roads become increasingly challenging, requiring more bricks and offering greater rewards upon completion. The teams must work together, strategize, and combine their efforts to conquer each road and level up to the next phase.</p>
+
+<h2>Collecting Yellow Bricks</h2>
+
+<p>Yellow Bricks, the essential building blocks of the roads, are earned through a spin-and-bet system. Players can spin and bet, with higher bets increasing their chances of obtaining coveted yellow bricks. Collecting these bricks not only contributes to the team's progress but also allows players to accumulate bonus credits.</p>
+
+<h2>Shared Rewards</h2>
+
+<p>Upon the completion of each yellow brick road, the team is rewarded with a generous prize pool. The size of the prize pool grows with each successive road, providing an incentive for teams to push their limits and strive for greater achievements. The prize pool is then distributed among team members according to their individual contributions, with those who collected more yellow bricks receiving a larger share.</p>
+
+<h2>Endless Roads, Infinite Possibilities</h2>
+
+<p>The event continues to present new roads until its conclusion, ensuring a constant stream of challenges and opportunities for players. The more yellow bricks a team collects before the event ends, the greater the bonus credits they receive, adding an extra layer of excitement and motivation to the proceedings.</p>
+
+<p>"Follow the Yellow Brick Road" is a unique and engaging event that celebrates teamwork, perseverance, and the thrill of friendly competition. Whether you're a seasoned player or a newcomer, this event promises an unforgettable journey filled with camaraderie, strategy, and the satisfaction of overcoming challenges together.</p>
+
+</div>
+</div>
+<div id="footer"></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+    </html>
